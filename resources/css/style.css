@@ -713,3 +713,15 @@ footer>img {
 	padding-top: 20px;
 }
 
+
+
+.progress-bar-success {
+    background-color: #928452 !important;
+}
+
+.button-blockb{
+	display: block;
+	width: 65%;
+	margin-bottom: 45px;
+}
+
