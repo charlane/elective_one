@@ -310,7 +310,7 @@
   </li>
 </ul>
 <br/><hr><br/>
-<div class="col-md-12 right ">
+<div class="col-md-12 right well">
     <div class="text-center">
         <p id="notify"></p>
         <h3>
@@ -351,18 +351,18 @@
                         Cover Letter: <span class="req">*</span>
                     </label>
                     <textarea class="form-control placeholderdaw" rows="16" name="coverLetter" id="letter">
-                        Dear ___________,   
+Dear ___________,   
 
-                        This is in response to your job posting of __________ posted in JobHunter on ___________.
+This is in response to your job posting of __________ posted in INTERNHUB on ___________.
 
-                        I am very interested in the position advertised.
+I am very interested in the position advertised.
 
-                        ...
+...
 
-                        Thank you.
+Thank you.
 
-                        Sincerely,
-                        [Your name]
+Sincerely,
+[Your name]
                     </textarea>
                     <span class="help-block" id="error"></span> 
                 </div>
@@ -377,15 +377,24 @@
                     <div class="col-md-12 left">
                         <h5>Upload your Resume: (optional) <small>(Max. 3 MB. File Type: DOC/PDF)</small></h5>
 
-                        <span class="btn btn-default btn-file">Browse file<input type="file" name="uploaded_file" id="resume"></span>
+                        <span class=""><input class="" type="file" name="uploaded_file" id="resume"></span>
+						<div class="col-md-8">
+						<div class="progress" style="margin: 15px 0px 0px -15px">
+								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+								aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								100% File Successfully Uploaded!</div>
+						</div>
+						</div>
+
                     </div>
+					
 
                     <div class="clearfix"></div>
                     <hr/>
 
                     <div class="col-md-12 left">
-                        <label class="note">By sending this application, you are agreeing to comply with and be bound by the <a href = "#">terms of use.</a></label>
-                        <button class="btn btn-default btn-lg" type="submit" name="submit_resume" id="submit" value="Upload file">Send Application</button>
+                        <label class="note">By sending this application, you are agreeing to comply with <br> and be bound by the <a href = "#">terms of use.</a></label>
+                        <button class="button button-blockb" type="submit" name="submit_resume" id="submit" value="Upload file">Send Application</button>
                     </div>
 
                 </div>
