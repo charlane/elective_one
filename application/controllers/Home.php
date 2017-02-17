@@ -29,4 +29,11 @@ class Home extends CI_Controller {
 		$this->load->view('home/login');
 		$this->load->view('partials/footer');
 	}
+	
+	public function contact()
+	{	
+		$this->load->view('partials/header');
+		$this->load->view('home/contact');
+		$this->load->view('partials/footer');
+	}
 }
