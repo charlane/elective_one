@@ -1,6 +1,5 @@
 
 html {
-	overflow-x: hidden;
 	width: 100%;
 	background: #ddd;
 }
@@ -44,7 +43,8 @@ body {
 	-webkit-box-sizing:border-box;
 }
 
-.outer > img {
+.outer > img,
+.margtopcontainer {
 	width: 100%;
 	margin-top: 84px;
 }
@@ -58,11 +58,11 @@ body {
 }
 
 .butt {
-    margin: 15px 0px 0px 15px;
+	margin: 15px 0px 0px 15px;
 }
 
 .butt > .btn {
-    border-radius: 0px;
+	border-radius: 0px;
 }
 
 ul.nav.navbar-nav>li>a {
@@ -101,7 +101,7 @@ ul.nav.navbar-nav>li>a:hover,
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-    background-color: #f5f5f5;
+	background-color: #f5f5f5;
 }
 
 #topNav {
@@ -339,11 +339,6 @@ LOGIN SIGNUP*/
 	width: 90%;
 
 }
-
-
-
-
-
 
 
 .divider {
@@ -639,7 +634,21 @@ section {
 	margin-top: 6%;
 }
 
+.mainbody{
+	text-align: justify;
+	text-justify: inter-word;
+}
 
+.apply{
+    padding: 20px 65px 30px 65px;
+}
+
+@media (max-width: 449px) {
+    .apply {
+        width: 90%;
+        padding: 0px;
+    } 
+}
 
 
 
