@@ -985,3 +985,19 @@ on off button end*/
     width: 75%;
 
 }
+
+
+
+.profCol{
+	background: #928452;
+	color: white;
+	padding: 20px 0;
+	margin-bottom: 0px;
+}
+.covLet {
+	margin: 0% 5%;
+}
+
+.media-top-right{
+	float: right;
+}
