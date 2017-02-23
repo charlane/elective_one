@@ -15,11 +15,4 @@ class Chairman extends CI_Controller {
 		$this->load->view('partials/chairman/footer');
 	}
 
-	public function chairmanprofile()
-	{	
-		$this->load->view('partials/chairman/header');
-		$this->load->view('chairman/chairmanprofile');
-		$this->load->view('partials/chairman/footer');
-	}
-
 }
