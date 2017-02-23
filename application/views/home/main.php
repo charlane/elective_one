@@ -53,7 +53,6 @@
                                 <div class="col-md-12 genderbox">
                                   <div class="col-md-4 genderlabel"><p>Gender:</p></div>
                                   <div class="genderr"> 
-
                                     <form action="">
                                       <div class="col-md-4"><input type="radio" name="gender" value="male"> Male </div>
                                       <div class="col-md-4"><input type="radio" name="gender" value="female"> Female </div>
@@ -147,7 +146,6 @@
                                         <a class="btn btn-link-1 launch-modal" href="#" data-target= data-modal-id="modal-login">Login</a>
                                     </div>
                                 </li>
-
                                 <li>
                                     <div class="top-big-link">
                                         <a class="btn btn-link-1 launch-modal register" href="#" data-modal-id="modal-register">Register</a>
@@ -256,7 +254,7 @@
 
   <div class="col-md-12 mainbody">
     <a>
-        <h1 class="sliding-u-l-r-l">Contactics</h1>
+        <h1 class="sliding-u-l-r-l">NexusBond Asia Inc.</h1>
     </a>
 
     <a>
@@ -329,6 +327,18 @@
                     <input type="text" class="form-control" name="name" id="name" />
                     <span class="help-block" id="error"></span> 
                 </div>
+              
+            </div>
+<div class="form-group">   
+                <div class="col-sm-1">
+                </div>
+               <div class="col-sm-10">
+                    <label class="label-left">
+                        Course and Year: <span class="req">*</span> <small>Ex. BSIT-3</small>
+                    </label>
+                    <input type="text" class="form-control" name="" id="" />
+                    <span class="help-block" id="error"></span> 
+                </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-1">
@@ -378,23 +388,23 @@ Sincerely,
                         <h5>Upload your Resume: (optional) <small>(Max. 3 MB. File Type: DOC/PDF)</small></h5>
 
                         <span class=""><input class="" type="file" name="uploaded_file" id="resume"></span>
-						<div class="col-md-8">
-						<div class="progress" style="margin: 15px 0px 0px -15px">
-								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
-								aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-								100% File Successfully Uploaded!</div>
-						</div>
-						</div>
+            <div class="col-md-8">
+            <div class="progress" style="margin: 15px 0px 0px -15px">
+                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                100% File Successfully Uploaded!</div>
+            </div>
+            </div>
 
                     </div>
-					
+          
 
                     <div class="clearfix"></div>
                     <hr/>
 
                     <div class="col-md-12 left">
                         <label class="note">By sending this application, you are agreeing to comply with <br> and be bound by the <a href = "#">terms of use.</a></label>
-                        <button class="button button-block" type="submit" name="submit_resume" id="submit" value="Upload file">Send Application</button>
+                        <button class="button button-block" type="submit" name="submit_resume" id="submit" value="Upload file" style="color: white;">Send Application</button>
                     </div>
 
                 </div>
@@ -418,4 +428,3 @@ Sincerely,
 
 </div>
 <div class="clearfix"></div>
-
