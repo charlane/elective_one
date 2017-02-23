@@ -394,7 +394,7 @@ Sincerely,
 
                     <div class="col-md-12 left">
                         <label class="note">By sending this application, you are agreeing to comply with <br> and be bound by the <a href = "#">terms of use.</a></label>
-                        <button class="button button-blockb" type="submit" name="submit_resume" id="submit" value="Upload file">Send Application</button>
+                        <button class="button button-block" type="submit" name="submit_resume" id="submit" value="Upload file">Send Application</button>
                     </div>
 
                 </div>
