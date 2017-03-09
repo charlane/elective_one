@@ -78,7 +78,6 @@ ul.nav.navbar-nav>li>a:hover,
     border-bottom: solid;
     border-width: 2px;
     border-bottom-color: #928452;
-
 }
 
 .navbar-login
@@ -163,7 +162,6 @@ ul.nav.navbar-nav>li>a:hover,
     outline:0;
 }
 
-
 /*
 LOGIN SIGNUP*/
 
@@ -216,7 +214,6 @@ LOGIN SIGNUP*/
 .tab-content > div:last-child {
     display: none;
 }
-
 
 .field-wrap>label {
     position: absolute;
@@ -336,7 +333,6 @@ LOGIN SIGNUP*/
 .panel {
     border-width:0;
 }
-
 
 .scroll-top {
     position:fixed;
@@ -637,39 +633,7 @@ section {
         padding: 0px;
     } 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
+.footerr {
     min-height: 100px;
     background: #222;
     padding: 50px 0 50px;
@@ -677,7 +641,7 @@ footer {
 }
 
 .contacticon,
-footer>img {
+.footerr>img {
     width: 40px;
     text-decoration: none!important;
     transition: all .2s ease-in-out;
@@ -704,7 +668,6 @@ footer>img {
 
 /*
 TABLE*/
-
 
 .dashcard,
 .dashcard1,
@@ -794,9 +757,6 @@ td:last-child {
 .delete:hover {
   color: #dc2a2a;
 }
-
-
-
 /*LIGHT*/
 
 .card {
@@ -909,9 +869,6 @@ td:last-child {
     padding-right: 15px; }
 
 /*TABLE*/
-
-
-
 /*
 for on off button*/
   
@@ -959,45 +916,50 @@ for on off button*/
 .switch-slide .switch-input:checked ~ .switch-label:after {
   left: 0;
 }
-
 .togglebutt{
     padding-bottom: 5px;
 }
-
-
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
     color: #fff;
     background-color: #978c66;
     border-color: #1f1f1f;
 }
-
-
-/*
-on off button end*/
-
+/*on off button end*/
 .closeapp{
        margin-top: 0px!important;
     margin-right: 0px!important;
 }
-
 .viewapp{
-  
     width: 75%;
-
 }
-
-
-
 .profCol{
 	background: #928452;
 	color: white;
 	padding: 20px 0;
 	margin-bottom: 0px;
 }
+.profCol2{
+    background: #928452;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 0px;
+        margin-top: -11px;
+}
 .covLet {
 	margin: 0% 5%;
 }
-
 .media-top-right{
 	float: right;
 }
+.h1-size{
+    font-size: 36px;
+    margin-top: 30px;
+}
+.selectpads{
+    padding: 8px;
+}
+#filtermain{
+    padding: 8px 12px !important;
+    width: 100% !important;
+}
+
